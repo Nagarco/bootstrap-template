@@ -1,0 +1,21 @@
+img{
+    max-width: 1000px;
+    object-fit: fill;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+body::before{
+    content: '';
+    height: 60px;
+    display: block;
+}
+
+.custom-image{
+    width: 260px;
+    height: 250px !important;
+}
